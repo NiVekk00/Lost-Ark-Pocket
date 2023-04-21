@@ -44,7 +44,66 @@ body {
     justify-content: center;
     align-items: center;
 
-    height: 50vh;
+    height: 90vh;
+
 
     color: white;
+}
+
+.top_nav_icones {
+    width: 3vw;
+    height: 5vh;
+}
+
+a {
+    text-decoration: none;
+    color: white
+}
+
+#engrv_manager {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 80vw;
+    height: 75vh;
+
+    background-color: rgb(41, 40, 40);
+}
+
+#engrv_manager_table {
+    display: flex;
+    justify-content: space-around;
+
+    width: 100%;
+    height: 100%;
+
+    margin: 1rem;
+}
+
+.engrv_manager_tr {
+    border-bottom: 1px solid white;
+    display: block;
+}
+
+.engrv_manager_accesories_td {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.engrv_manager_engravings_td {
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+}
+
+.engrv_manager_select {
+    background-color: rgba(0, 0, 0, 0);
+
+    border: none;
+    outline: none;
+
+    color: white;
+
+    border-bottom: 1px solid white;
+
 }
